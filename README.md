@@ -1,17 +1,17 @@
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=39FF14&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Akarsh+Jain;Backend+%2B+Full-Stack+Engineer;AI%2FML+%26+Competitive+Programmer;Building+systems+that+survive+real+load" alt="Typing SVG" />
-
-<p align="center">
-  <a href="https://linkedin.com/in/akarshjain05"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:akarshjain2006@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://leetcode.com/akarsh_jain05"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
-  <a href="https://codeforces.com/profile/akarsh_jain05"><img src="https://img.shields.io/badge/-Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
-</p>
-
-![Profile Views](https://komarev.com/ghpvc/?username=akarshjain05&color=39FF14&style=flat-square&label=SESSION+VIEWS)
-
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=39FF14&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Akarsh+Jain;Backend+%2B+Full-Stack+Engineer;AI%2FML+%26+Competitive+Programmer;Building+systems+that+survive+real+load" alt="Typing SVG" />
+  <br />
+  <br />
+  <a href="https://linkedin.com/in/akarshjain05"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:akarshjain2006@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://leetcode.com/akarsh_jain05"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+  <a href="https://codeforces.com/profile/akarsh_jain05"><img src="https://img.shields.io/badge/-Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
+  <br />
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=akarshjain05&color=39FF14&style=flat-square&label=SESSION+VIEWS" alt="Profile Views" />
 </div>
+
+<br />
 
 ```text
 [  OK  ] booting akarshjain05...
@@ -138,12 +138,9 @@ survives the happy path.
 ### `akarsh@dev:~$ tail -f activity.log`
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true" />
-
-<img src="https://streak-stats.demolab.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true" />
-
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true" />
 </div>
 
 ---
@@ -159,11 +156,9 @@ survives the happy path.
 ---
 
 <div align="center">
-
 ```text
 akarsh@dev:~$ echo "thanks for reading the source"
 thanks for reading the source
 akarsh@dev:~$ exit
 ```
-
 </div>
