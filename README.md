@@ -160,9 +160,11 @@ survives the happy path.
 ---
 
 <div align="center">
+
 ```text
 akarsh@dev:~$ echo "thanks for reading the source"
 thanks for reading the source
 akarsh@dev:~$ exit
 ```
+
 </div>
