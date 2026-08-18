@@ -139,25 +139,45 @@ survives the happy path.
 
 <div align="center">
   <h3><code>akarsh@dev:~$ tail -f activity.log</code></h3>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=akarshjain05&amp;show_icons=true&amp;theme=chartreuse-dark&amp;hide_border=true&amp;count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akarshjain05&amp;layout=compact&amp;theme=chartreuse-dark&amp;hide_border=true" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Top Languages" />
   <br />
-  <img src="https://streak-stats.demolab.com/?user=akarshjain05&amp;theme=github-dark-blue&amp;hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true" alt="Streak Stats" />
 </div>
 
 ---
 
 <div align="center">
   <h3><code>akarsh@dev:~$ cat /etc/services</code></h3>
+  <table>
+    <thead>
+      <tr>
+        <th>PORT</th>
+        <th>SERVICE</th>
+        <th>ENDPOINT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>443</td>
+        <td>LinkedIn</td>
+        <td><code>linkedin.com/in/akarshjain05</code></td>
+      </tr>
+      <tr>
+        <td>443</td>
+        <td>GitHub</td>
+        <td><code>github.com/akarshjain05</code></td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>Email</td>
+        <td><code>akarshjain2006@gmail.com</code></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-| PORT | SERVICE | ENDPOINT |
-|---|---|---|
-| 443 | LinkedIn | `linkedin.com/in/akarshjain05` |
-| 443 | GitHub | `github.com/akarshjain05` |
-| 25  | Email | `akarshjain2006@gmail.com` |
-
----
+<br />
 
 <div align="center">
 
