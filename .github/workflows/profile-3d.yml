@@ -14,15 +14,37 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
+      - name: Create settings.json
+        run: |
+          cat << 'INNER_EOF' > settings.json
+          {
+            "type": "normal",
+            "fileName": "akarsh-premium-city.svg",
+            "backgroundColor": "#0c1117",
+            "foregroundColor": "#c9d1d9",
+            "strongColor": "#39FF14",
+            "weakColor": "#161b22",
+            "radarColor": "#39FF14",
+            "growingAnimation": true,
+            "contribColors": [
+              "#161b22",
+              "#005a32",
+              "#238b45",
+              "#41ab5d",
+              "#39FF14"
+            ]
+          }
+          INNER_EOF
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: "settings.json"
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "generated 3D contribution graph"; then
+          if git commit -m "design: generate custom themed 3D city"; then
             git push
           fi
