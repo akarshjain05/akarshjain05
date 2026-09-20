@@ -154,11 +154,15 @@ survives the happy path.
   <h3><code>akarsh@dev:~$ fetch-stats --competitive</code></h3>
   <br />
   <a href="https://leetcode.com/akarsh_jain05/">
-    <img src="https://leetcard.jacoblin.cool/akarsh_jain05?theme=dark&bg=010409&border=0&font=Fira%20Code&ext=activity" alt="LeetCode Stats" height="180" />
+    <img src="https://leetcard.jacoblin.cool/akarsh_jain05?theme=dark&bg=010409&border=0&font=Fira%20Code&ext=activity" alt="LeetCode Stats" height="165" />
   </a>
   &nbsp;&nbsp;
   <a href="https://codeforces.com/profile/akarsh_jain05">
-    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=akarsh_jain05&theme=dark&bg_color=010409&hide_border=true" alt="Codeforces Stats" height="180" />
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=akarsh_jain05&theme=dark&bg_color=010409&hide_border=true" alt="Codeforces Stats" height="165" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://codechef.com/users/akarshjain05">
+    <img src="https://codechef-stat-card.vercel.app/api/akarshjain05?theme=dark&bg=010409" alt="CodeChef Stats" height="165" />
   </a>
 </div>
 
