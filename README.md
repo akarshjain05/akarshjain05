@@ -150,17 +150,17 @@ survives the happy path.
 
 ---
 
-### `akarsh@dev:~$ neofetch --competitive`
-
-```text
-       *       Platform: LeetCode
-      ***      Solved:   650+ Problems
-     *****     Language: C++ / Python
-    *******
-   *********   Platform: Codeforces
-  ***********  Rating:   1600+ (Max)
- ************* Handle:   akarsh_jain05
-```
+<div align="center">
+  <h3><code>akarsh@dev:~$ fetch-stats --competitive</code></h3>
+  <br />
+  <a href="https://leetcode.com/akarsh_jain05/">
+    <img src="https://leetcard.jacoblin.cool/akarsh_jain05?theme=dark&bg=010409&border=0&font=Fira%20Code&ext=activity" alt="LeetCode Stats" height="180" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://codeforces.com/profile/akarsh_jain05">
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=akarsh_jain05&theme=dark&bg_color=010409&hide_border=true" alt="Codeforces Stats" height="180" />
+  </a>
+</div>
 
 ---
 
