@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "akarsh-premium-city.svg",
+  "backgroundColor": "#0c1117",
+  "foregroundColor": "#c9d1d9",
+  "strongColor": "#39FF14",
+  "weakColor": "#161b22",
+  "radarColor": "#39FF14",
+  "growingAnimation": true,
+  "contribColors": [
+    "#161b22",
+    "#005a32",
+    "#238b45",
+    "#41ab5d",
+    "#39FF14"
+  ]
+}
