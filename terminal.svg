@@ -8,48 +8,20 @@
   <text x="400" y="22" fill="#8b949e" font-family="monospace" font-size="13" text-anchor="middle">akarsh@dev: ~</text>
   <line x1="0" y1="35" x2="800" y2="35" stroke="#30363d" stroke-width="1.5"/>
   
-  <g fill="#58a6ff" font-size="14" font-family="monospace" class="avatar-group">
-    <text x="25" y="80">                              </text>
-    <text x="25" y="98">            ██████            </text>
-    <text x="25" y="116">    ██      ██████      ██    </text>
-    <text x="25" y="134">  ██████    ██████    ██████  </text>
-    <text x="25" y="152">  ██████████████████████████  </text>
-    <text x="25" y="170">  ██████████████████████████  </text>
-    <text x="25" y="188">        ██████████████        </text>
-    <text x="25" y="206">    ██████████████████████    </text>
-    <text x="25" y="224">  ██████    ██████    ██████  </text>
-    <text x="25" y="242">                              </text>
-    <text x="25" y="260">   root@akarshjain05-os       </text>
-    <text x="25" y="278">   --------------------       </text>
-    <text x="25" y="296" fill="#8b949e">   UPTIME:</text><text x="110" y="296" fill="#c9d1d9"> 99.9%</text>
-  </g>
-
   <g font-family="monospace" font-size="14" fill="#c9d1d9">
-    <text class="line l1" x="270" y="80"><tspan fill="#3fb950">[  OK  ]</tspan> booting akarshjain05...</text>
-    <text class="line l2" x="270" y="104"><tspan fill="#3fb950">[  OK  ]</tspan> establishing neural pathways</text>
-    <text class="line l3" x="270" y="128"><tspan fill="#3fb950">[  OK  ]</tspan> mounting backend services</text>
-    <text class="line l4" x="270" y="152"><tspan fill="#3fb950">[  OK  ]</tspan> initializing AI subroutines</text>
-    <text class="line l5" x="270" y="176"><tspan fill="#3fb950">[  OK  ]</tspan> verifying security protocols</text>
-    <text class="line l6" x="270" y="200"><tspan fill="#3fb950">[  OK  ]</tspan> containerizing microservices</text>
-    <text class="line l7" x="270" y="224"><tspan fill="#ffbd2e">[ WARN ]</tspan> dangerous caffeine levels</text>
-    <text class="line l8" x="270" y="248"><tspan fill="#3fb950">[  OK  ]</tspan> fetching competitive algorithms</text>
-    <text class="line l9" x="270" y="272"><tspan fill="#3fb950">[  OK  ]</tspan> loading profile: Akarsh Jain</text>
-    <text class="line l10" x="270" y="296"><tspan fill="#58a6ff">[ INFO ]</tspan> status: available for hire</text>
-    <text class="line l11" x="270" y="320"><tspan fill="#39FF14">akarsh@dev:~$</tspan> <tspan class="blinking-cursor" fill="#c9d1d9">█</tspan></text>
+    <text class="line l1" x="25" y="70"><tspan fill="#3fb950">[  OK  ]</tspan> booting akarshjain05...</text>
+    <text class="line l2" x="25" y="95"><tspan fill="#3fb950">[  OK  ]</tspan> establishing core neural pathways (python, c++, typescript)</text>
+    <text class="line l3" x="25" y="120"><tspan fill="#3fb950">[  OK  ]</tspan> mounting backend services (fastapi, postgresql, redis)</text>
+    <text class="line l4" x="25" y="145"><tspan fill="#3fb950">[  OK  ]</tspan> initializing AI subroutines (langgraph, gemini, claude)</text>
+    <text class="line l5" x="25" y="170"><tspan fill="#3fb950">[  OK  ]</tspan> verifying security protocols (oauth2, jwt, rbac)</text>
+    <text class="line l6" x="25" y="195"><tspan fill="#3fb950">[  OK  ]</tspan> containerizing microservices (docker, docker-compose)</text>
+    <text class="line l7" x="25" y="220"><tspan fill="#ffbd2e">[ WARN ]</tspan> dangerous levels of caffeine detected</text>
+    <text class="line l8" x="25" y="245"><tspan fill="#3fb950">[  OK  ]</tspan> fetching competitive algorithms (leetcode, codeforces)</text>
+    <text class="line l9" x="25" y="270"><tspan fill="#3fb950">[  OK  ]</tspan> loading profile: Akarsh Jain</text>
+    <text class="line l10" x="25" y="295"><tspan fill="#58a6ff">[ INFO ]</tspan> status: available for opportunities</text>
+    <text class="line l11" x="25" y="320"><tspan fill="#39FF14">akarsh@dev:~$</tspan> <tspan class="blinking-cursor" fill="#c9d1d9">█</tspan></text>
   </g>
   <style>
-    .avatar-group {
-      opacity: 0;
-      animation: flicker 0.5s forwards 0.2s;
-    }
-    @keyframes flicker {
-      0% { opacity: 0; }
-      20% { opacity: 1; }
-      40% { opacity: 0; }
-      60% { opacity: 1; }
-      80% { opacity: 0.5; }
-      100% { opacity: 1; }
-    }
     .blinking-cursor {
       animation: blink 1.2s step-end infinite;
     }
@@ -64,16 +36,16 @@
     @keyframes reveal {
       to { opacity: 1; }
     }
-    .l1 { animation-delay: 0.8s; }
-    .l2 { animation-delay: 1.1s; }
-    .l3 { animation-delay: 1.4s; }
-    .l4 { animation-delay: 1.7s; }
-    .l5 { animation-delay: 2.0s; }
-    .l6 { animation-delay: 2.3s; }
-    .l7 { animation-delay: 3.0s; }
-    .l8 { animation-delay: 3.4s; }
-    .l9 { animation-delay: 3.7s; }
-    .l10 { animation-delay: 4.0s; }
-    .l11 { animation-delay: 4.7s; }
+    .l1 { animation-delay: 0.3s; }
+    .l2 { animation-delay: 0.6s; }
+    .l3 { animation-delay: 0.9s; }
+    .l4 { animation-delay: 1.2s; }
+    .l5 { animation-delay: 1.5s; }
+    .l6 { animation-delay: 1.8s; }
+    .l7 { animation-delay: 2.5s; }
+    .l8 { animation-delay: 2.9s; }
+    .l9 { animation-delay: 3.2s; }
+    .l10 { animation-delay: 3.5s; }
+    .l11 { animation-delay: 4.2s; }
   </style>
 </svg>
