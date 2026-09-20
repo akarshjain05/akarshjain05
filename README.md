@@ -61,44 +61,97 @@ survives the happy path.
 | **[sentinelreview](https://github.com/akarshjain05/sentinelreview)** | FastAPI · LangGraph · LiteLLM · PostgreSQL/pgvector | 🟢 up | [repo →](https://github.com/akarshjain05/sentinelreview) |
 | **[mini-code-judge](https://github.com/akarshjain05/mini-code-judge)** | FastAPI · PostgreSQL · Redis · Docker · Gemini | 🟢 up | [live →](https://mini-code-judge-frontend.onrender.com) |
 | **[evenly](https://github.com/akarshjain05/evenly)** | FastAPI · SQLAlchemy · PostgreSQL · Vanilla JS PWA | 🟢 up | [live →](https://evenly-eight.vercel.app) |
+<br />
+
+<details open>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/itinero.log</summary>
 
 ```text
 # itinero
 > multi-agent LangGraph workflow — researches destinations, flights, hotels,
 > and food in parallel. Critic node rejects and re-runs specific agents.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/vellumiq.log</summary>
+
+```text
 # vellumiq
 > production-grade RAG pipeline — Anthropic Contextual Retrieval, semantic
 > caching, Corrective RAG fallback, and temporal hybrid search.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/cedar-merge-gatekeeper.log</summary>
+
+```text
 # cedar-merge-gatekeeper
 > serverless PR approval gatekeeper — enforces self-approval bans, path-based
 > ownership, line-count thresholds, and time-based freezes via Cedar policies.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/ironlog.log</summary>
+
+```text
 # ironlog
 > fitness analytics platform — computes Epley 1RM, BMR/TDEE, and forecasts
 > weight trends back-calculated from user's logged intake.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/resource-sharing.log</summary>
+
+```text
 # resource-sharing
 > campus marketplace — full borrow lifecycle across 4 RBAC roles.
 > 17 REST routers, Redis rate-limited auth, 70+ Pytest cases.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/nostroq.log</summary>
+
+```text
 # nostroq
 > quantum-ready liquidity optimizer — models nostro pre-funding as QUBO,
 > solved via simulated annealing and graph-aware QAOA decomposition.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/sentinelreview.log</summary>
+
+```text
 # sentinelreview
 > agentic security code review — 7-agent LangGraph pipeline that reviews
 > GitHub PRs, grounds claims in OWASP, and generates patches in sandbox.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/mini-code-judge.log</summary>
+
+```text
 # mini-code-judge
 > sandboxed code execution engine — submissions run in isolated containers,
 > queued through Redis-backed workers. Includes Gemini-powered AI code review.
+```
+</details>
 
+<details>
+<summary><b>akarsh@dev:~$</b> tail -f /logs/evenly.log</summary>
+
+```text
 # evenly
 > real-time expense splitter PWA — debt simplification engine minimizes
 > settlements. Web Push notifications, CSV export, serverless on Vercel.
 ```
+</details>
 
 ---
 
@@ -169,10 +222,10 @@ survives the happy path.
 
 <div align="center">
   <h3><code>akarsh@dev:~$ tail -f activity.log</code></h3>
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=00000000" alt="GitHub Stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=00000000" alt="Top Languages" />
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=00000000" alt="Streak Stats" />
 </div>
 
 ---
