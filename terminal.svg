@@ -9,17 +9,17 @@
   <line x1="0" y1="35" x2="800" y2="35" stroke="#30363d" stroke-width="1.5"/>
   
   <g font-family="monospace" font-size="14" fill="#c9d1d9">
-    <text x="25" y="70"><tspan fill="#3fb950">[  OK  ]</tspan> booting akarshjain05...</text>
-    <text x="25" y="95"><tspan fill="#3fb950">[  OK  ]</tspan> establishing core neural pathways (python, c++, typescript)</text>
-    <text x="25" y="120"><tspan fill="#3fb950">[  OK  ]</tspan> mounting backend services (fastapi, postgresql, redis)</text>
-    <text x="25" y="145"><tspan fill="#3fb950">[  OK  ]</tspan> initializing AI subroutines (langgraph, gemini, claude)</text>
-    <text x="25" y="170"><tspan fill="#3fb950">[  OK  ]</tspan> verifying security protocols (oauth2, jwt, rbac)</text>
-    <text x="25" y="195"><tspan fill="#3fb950">[  OK  ]</tspan> containerizing microservices (docker, docker-compose)</text>
-    <text x="25" y="220"><tspan fill="#ffbd2e">[ WARN ]</tspan> dangerous levels of caffeine detected</text>
-    <text x="25" y="245"><tspan fill="#3fb950">[  OK  ]</tspan> fetching competitive algorithms (leetcode, codeforces)</text>
-    <text x="25" y="270"><tspan fill="#3fb950">[  OK  ]</tspan> loading profile: Akarsh Jain</text>
-    <text x="25" y="295"><tspan fill="#58a6ff">[ INFO ]</tspan> status: available for opportunities</text>
-    <text x="25" y="320"><tspan fill="#39FF14">akarsh@dev:~$</tspan> <tspan class="blinking-cursor" fill="#c9d1d9">█</tspan></text>
+    <text class="line l1" x="25" y="70"><tspan fill="#3fb950">[  OK  ]</tspan> booting akarshjain05...</text>
+    <text class="line l2" x="25" y="95"><tspan fill="#3fb950">[  OK  ]</tspan> establishing core neural pathways (python, c++, typescript)</text>
+    <text class="line l3" x="25" y="120"><tspan fill="#3fb950">[  OK  ]</tspan> mounting backend services (fastapi, postgresql, redis)</text>
+    <text class="line l4" x="25" y="145"><tspan fill="#3fb950">[  OK  ]</tspan> initializing AI subroutines (langgraph, gemini, claude)</text>
+    <text class="line l5" x="25" y="170"><tspan fill="#3fb950">[  OK  ]</tspan> verifying security protocols (oauth2, jwt, rbac)</text>
+    <text class="line l6" x="25" y="195"><tspan fill="#3fb950">[  OK  ]</tspan> containerizing microservices (docker, docker-compose)</text>
+    <text class="line l7" x="25" y="220"><tspan fill="#ffbd2e">[ WARN ]</tspan> dangerous levels of caffeine detected</text>
+    <text class="line l8" x="25" y="245"><tspan fill="#3fb950">[  OK  ]</tspan> fetching competitive algorithms (leetcode, codeforces)</text>
+    <text class="line l9" x="25" y="270"><tspan fill="#3fb950">[  OK  ]</tspan> loading profile: Akarsh Jain</text>
+    <text class="line l10" x="25" y="295"><tspan fill="#58a6ff">[ INFO ]</tspan> status: available for opportunities</text>
+    <text class="line l11" x="25" y="320"><tspan fill="#39FF14">akarsh@dev:~$</tspan> <tspan class="blinking-cursor" fill="#c9d1d9">█</tspan></text>
   </g>
   <style>
     .blinking-cursor {
@@ -29,5 +29,23 @@
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
+    .line {
+      opacity: 0;
+      animation: reveal 0.1s forwards;
+    }
+    @keyframes reveal {
+      to { opacity: 1; }
+    }
+    .l1 { animation-delay: 0.3s; }
+    .l2 { animation-delay: 0.6s; }
+    .l3 { animation-delay: 0.9s; }
+    .l4 { animation-delay: 1.2s; }
+    .l5 { animation-delay: 1.5s; }
+    .l6 { animation-delay: 1.8s; }
+    .l7 { animation-delay: 2.5s; } /* pause for drama on WARN */
+    .l8 { animation-delay: 2.9s; }
+    .l9 { animation-delay: 3.2s; }
+    .l10 { animation-delay: 3.5s; }
+    .l11 { animation-delay: 4.2s; }
   </style>
 </svg>
