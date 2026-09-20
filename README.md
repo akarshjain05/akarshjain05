@@ -228,7 +228,16 @@ survives the happy path.
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=transparent" alt="Streak Stats" />
   <br />
   <!--START_SECTION:waka-->
-  <!--END_SECTION:waka-->
+
+```txt
+From: 12 September 2026 - To: 19 September 2026
+
+Total Time: 0 secs
+
+No activity tracked
+```
+
+<!--END_SECTION:waka-->
 </div>
 
 ---
