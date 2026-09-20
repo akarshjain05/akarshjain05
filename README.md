@@ -41,29 +41,17 @@
 
 ---
 
-### `akarsh@dev:~$ curl -s https://api.akarsh.dev/v1/active-tasks | jq`
+### `akarsh@dev:~$ psql -U akarsh -d brain_db`
 
-```json
-[
-  {
-    "id": "TASK-01",
-    "title": "Autonomous AI Software Factory",
-    "description": "Building an agentic LangGraph platform that plans, implements, and tests code autonomously",
-    "status": "IN_PROGRESS"
-  },
-  {
-    "id": "TASK-02",
-    "title": "DSA & Codeforces",
-    "description": "Mastering advanced data structures and competitive problem-solving",
-    "status": "ACTIVE"
-  },
-  {
-    "id": "TASK-03",
-    "title": "Advanced RAG Architecture",
-    "description": "Exploring vector databases and temporal hybrid search for next-gen AI integrations",
-    "status": "RESEARCHING"
-  }
-]
+```sql
+brain_db=> SELECT task, description, status FROM current_focus WHERE status != 'COMPLETED';
+
+               task              |                     description                      |   status    
+---------------------------------+------------------------------------------------------+-------------
+ Autonomous AI Software Factory  | Agentic LangGraph platform that plans and tests code | IN_PROGRESS 
+ DSA & Codeforces                | Mastering advanced data structures & algorithms      | ACTIVE      
+ Advanced RAG Architecture       | Exploring vector databases & temporal hybrid search  | RESEARCHING 
+(3 rows)
 ```
 
 ---
