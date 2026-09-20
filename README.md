@@ -42,9 +42,9 @@ survives the happy path.
 
 ### `akarsh@dev:~$ cat /current_focus`
 
-- 🛡️ **Building SentinelReview** — a 7-agent AI pipeline that reviews GitHub PRs for security issues (0.900 precision, 1.000 recall on GHSA benchmark)
-- 🧠 **Grinding DSA & Codeforces** — to master competitive problem-solving
-- 🚀 **Exploring RAG & Vector DBs** — for advanced AI integrations
+- **Building an Autonomous AI Software Factory** — an agentic LangGraph platform that plans, implements, and tests code autonomously
+- **Grinding DSA & Codeforces** — to master competitive problem-solving
+- **Exploring advanced RAG architectures & vector databases** — for the next big AI integration
 
 ---
 
@@ -52,22 +52,52 @@ survives the happy path.
 
 | CONTAINER | STACK | STATUS | LINK |
 |---|---|---|---|
-| **[mini-code-judge](https://github.com/akarshjain05/mini-code-judge)** | FastAPI · PostgreSQL · Redis · Docker · Gemini | 🟢 up | [live →](https://mini-code-judge-frontend.onrender.com) |
-| **[gym-progress](https://github.com/akarshjain05/gym-progress-analytics)** | FastAPI · SQLAlchemy · Vanilla JS · Docker · AWS EC2 | 🟢 up | [live →](https://ironlog.in) |
+| **[itinero](https://github.com/akarshjain05/trip-planner)** | Python · FastAPI · LangGraph · React 19 · Docker | 🟢 up | [repo →](https://github.com/akarshjain05/trip-planner) |
+| **[vellumiq](https://github.com/akarshjain05/rag)** | FastAPI · Qdrant · Claude 3.5 · Docker · Langfuse | 🟢 up | [repo →](https://github.com/akarshjain05/rag) |
+| **[cedar-merge-gatekeeper](https://github.com/akarshjain05/Cedar-Merge-Gatekeeper)** | AWS Lambda · API Gateway · DynamoDB · Cedar/AVP | 🟢 up | [live →](https://main.d3ofi8gfbpsdj6.amplifyapp.com/) |
+| **[ironlog](https://github.com/akarshjain05/gym-progress-analytics)** | FastAPI · SQLAlchemy · Vanilla JS · Docker · AWS EC2 | 🟢 up | [live →](https://ironlog.in) |
 | **[resource-sharing](https://github.com/akarshjain05/College-Resource-Sharing-System)** | FastAPI · Redis · Celery · React 18 · Docker Compose | 🟢 up | [live →](https://13-48-123-128.sslip.io/) |
+| **[nostroq](https://github.com/akarshjain05/Quantum-Annealing)** | Python · FastAPI · Qiskit Aer · React · SQLite | 🟢 up | [repo →](https://github.com/akarshjain05/Quantum-Annealing) |
+| **[sentinelreview](https://github.com/akarshjain05/sentinelreview)** | FastAPI · LangGraph · LiteLLM · PostgreSQL/pgvector | 🟢 up | [repo →](https://github.com/akarshjain05/sentinelreview) |
+| **[mini-code-judge](https://github.com/akarshjain05/mini-code-judge)** | FastAPI · PostgreSQL · Redis · Docker · Gemini | 🟢 up | [live →](https://mini-code-judge-frontend.onrender.com) |
+| **[evenly](https://github.com/akarshjain05/evenly)** | FastAPI · SQLAlchemy · PostgreSQL · Vanilla JS PWA | 🟢 up | [live →](https://evenly-eight.vercel.app) |
 
 ```text
-# mini-code-judge
-> sandboxed code execution engine — submissions run in isolated containers,
-> queued through Redis-backed workers. Includes Gemini-powered AI code review.
+# itinero
+> multi-agent LangGraph workflow — researches destinations, flights, hotels,
+> and food in parallel. Critic node rejects and re-runs specific agents.
 
-# gym-progress (IronLog)
+# vellumiq
+> production-grade RAG pipeline — Anthropic Contextual Retrieval, semantic
+> caching, Corrective RAG fallback, and temporal hybrid search.
+
+# cedar-merge-gatekeeper
+> serverless PR approval gatekeeper — enforces self-approval bans, path-based
+> ownership, line-count thresholds, and time-based freezes via Cedar policies.
+
+# ironlog
 > fitness analytics platform — computes Epley 1RM, BMR/TDEE, and forecasts
 > weight trends back-calculated from user's logged intake.
 
 # resource-sharing
 > campus marketplace — full borrow lifecycle across 4 RBAC roles.
 > 17 REST routers, Redis rate-limited auth, 70+ Pytest cases.
+
+# nostroq
+> quantum-ready liquidity optimizer — models nostro pre-funding as QUBO,
+> solved via simulated annealing and graph-aware QAOA decomposition.
+
+# sentinelreview
+> agentic security code review — 7-agent LangGraph pipeline that reviews
+> GitHub PRs, grounds claims in OWASP, and generates patches in sandbox.
+
+# mini-code-judge
+> sandboxed code execution engine — submissions run in isolated containers,
+> queued through Redis-backed workers. Includes Gemini-powered AI code review.
+
+# evenly
+> real-time expense splitter PWA — debt simplification engine minimizes
+> settlements. Web Push notifications, CSV export, serverless on Vercel.
 ```
 
 ---
