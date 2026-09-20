@@ -41,22 +41,27 @@
 
 ---
 
-### `akarsh@dev:~$ jobs -l`
+### `akarsh@dev:~$ cat /current_focus`
 
 <br/>
 
-<img src="https://img.shields.io/badge/Autonomous_AI_Software_Factory-IN_PROGRESS-009688?style=for-the-badge" />
-> Building an agentic LangGraph platform that plans, implements, and tests code autonomously.
+<p>
+  <img src="https://img.shields.io/badge/-%20-009688?style=flat-square" width="10" height="15" align="center" /> 
+  &nbsp; <b>Autonomous AI Software Factory</b><br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Building an agentic LangGraph platform that plans, implements, and tests code autonomously.</i>
+</p>
 
-<br/>
+<p>
+  <img src="https://img.shields.io/badge/-%20-58a6ff?style=flat-square" width="10" height="15" align="center" /> 
+  &nbsp; <b>DSA & Codeforces</b><br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Mastering advanced data structures and competitive problem-solving.</i>
+</p>
 
-<img src="https://img.shields.io/badge/DSA_%26_Codeforces-ACTIVE-58a6ff?style=for-the-badge" />
-> Mastering advanced data structures and competitive problem-solving.
-
-<br/>
-
-<img src="https://img.shields.io/badge/Advanced_RAG_Architecture-RESEARCHING-ff7b72?style=for-the-badge" />
-> Exploring vector databases and temporal hybrid search for next-gen AI integrations.
+<p>
+  <img src="https://img.shields.io/badge/-%20-ff7b72?style=flat-square" width="10" height="15" align="center" /> 
+  &nbsp; <b>Advanced RAG Architecture</b><br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Exploring vector databases and temporal hybrid search for next-gen AI integrations.</i>
+</p>
 
 ---
 
