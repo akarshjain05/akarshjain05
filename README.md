@@ -43,110 +43,47 @@ survives the happy path.
 
 ---
 
-### `akarsh@dev:~$ docker ps --filter "status=running"`
-
-| CONTAINER | STACK | STATUS | LINK |
-|---|---|---|---|
-| **[itinero](https://github.com/akarshjain05/trip-planner)** | Python · FastAPI · LangGraph · React 19 · Docker | 🟢 up | [repo →](https://github.com/akarshjain05/trip-planner) |
-| **[vellumiq](https://github.com/akarshjain05/rag)** | FastAPI · Qdrant · Claude 3.5 · Docker · Langfuse | 🟢 up | [repo →](https://github.com/akarshjain05/rag) |
-| **[cedar-merge-gatekeeper](https://github.com/akarshjain05/Cedar-Merge-Gatekeeper)** | AWS Lambda · API Gateway · DynamoDB · Cedar/AVP | 🟢 up | [live →](https://main.d3ofi8gfbpsdj6.amplifyapp.com/) |
-| **[ironlog](https://github.com/akarshjain05/gym-progress-analytics)** | FastAPI · SQLAlchemy · Vanilla JS · Docker · AWS EC2 | 🟢 up | [live →](https://ironlog.in) |
-| **[resource-sharing](https://github.com/akarshjain05/College-Resource-Sharing-System)** | FastAPI · Redis · Celery · React 18 · Docker Compose | 🟢 up | [live →](https://13-48-123-128.sslip.io/) |
-| **[nostroq](https://github.com/akarshjain05/Quantum-Annealing)** | Python · FastAPI · Qiskit Aer · React · SQLite | 🟢 up | [repo →](https://github.com/akarshjain05/Quantum-Annealing) |
-| **[sentinelreview](https://github.com/akarshjain05/sentinelreview)** | FastAPI · LangGraph · LiteLLM · PostgreSQL/pgvector | 🟢 up | [repo →](https://github.com/akarshjain05/sentinelreview) |
-| **[mini-code-judge](https://github.com/akarshjain05/mini-code-judge)** | FastAPI · PostgreSQL · Redis · Docker · Gemini | 🟢 up | [live →](https://mini-code-judge-frontend.onrender.com) |
-| **[evenly](https://github.com/akarshjain05/evenly)** | FastAPI · SQLAlchemy · PostgreSQL · Vanilla JS PWA | 🟢 up | [live →](https://evenly-eight.vercel.app) |
-<br />
-
-<details open>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/itinero.log</summary>
-
-```text
-# itinero
-> multi-agent LangGraph workflow — researches destinations, flights, hotels,
-> and food in parallel. Critic node rejects and re-runs specific agents.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/vellumiq.log</summary>
-
-```text
-# vellumiq
-> production-grade RAG pipeline — Anthropic Contextual Retrieval, semantic
-> caching, Corrective RAG fallback, and temporal hybrid search.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/cedar-merge-gatekeeper.log</summary>
-
-```text
-# cedar-merge-gatekeeper
-> serverless PR approval gatekeeper — enforces self-approval bans, path-based
-> ownership, line-count thresholds, and time-based freezes via Cedar policies.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/ironlog.log</summary>
-
-```text
-# ironlog
-> fitness analytics platform — computes Epley 1RM, BMR/TDEE, and forecasts
-> weight trends back-calculated from user's logged intake.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/resource-sharing.log</summary>
-
-```text
-# resource-sharing
-> campus marketplace — full borrow lifecycle across 4 RBAC roles.
-> 17 REST routers, Redis rate-limited auth, 70+ Pytest cases.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/nostroq.log</summary>
-
-```text
-# nostroq
-> quantum-ready liquidity optimizer — models nostro pre-funding as QUBO,
-> solved via simulated annealing and graph-aware QAOA decomposition.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/sentinelreview.log</summary>
-
-```text
-# sentinelreview
-> agentic security code review — 7-agent LangGraph pipeline that reviews
-> GitHub PRs, grounds claims in OWASP, and generates patches in sandbox.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/mini-code-judge.log</summary>
-
-```text
-# mini-code-judge
-> sandboxed code execution engine — submissions run in isolated containers,
-> queued through Redis-backed workers. Includes Gemini-powered AI code review.
-```
-</details>
-
-<details>
-<summary><b>akarsh@dev:~$</b> tail -f /logs/evenly.log</summary>
-
-```text
-# evenly
-> real-time expense splitter PWA — debt simplification engine minimizes
-> settlements. Web Push notifications, CSV export, serverless on Vercel.
-```
-</details>
+<div align="center">
+  <h3><code>akarsh@dev:~$ ls -la /opt/projects/</code></h3>
+  <br/>
+  <p align="center">
+    <a href="https://github.com/akarshjain05/trip-planner">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=trip-planner&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+    <a href="https://github.com/akarshjain05/rag">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=rag&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/akarshjain05/Cedar-Merge-Gatekeeper">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=Cedar-Merge-Gatekeeper&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+    <a href="https://github.com/akarshjain05/sentinelreview">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=sentinelreview&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/akarshjain05/gym-progress-analytics">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=gym-progress-analytics&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+    <a href="https://github.com/akarshjain05/mini-code-judge">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=mini-code-judge&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/akarshjain05/College-Resource-Sharing-System">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=College-Resource-Sharing-System&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+    <a href="https://github.com/akarshjain05/evenly">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=evenly&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/akarshjain05/Quantum-Annealing">
+      <img src="https://github-stats-extended.vercel.app/api/pin/?username=akarshjain05&repo=Quantum-Annealing&theme=chartreuse-dark&bg_color=010409&hide_border=true" width="400" />
+    </a>
+  </p>
+</div>
 
 ---
 
