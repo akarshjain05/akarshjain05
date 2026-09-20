@@ -186,6 +186,8 @@
   <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=0c1117" alt="Streak Stats" />
   <br />
+  <img src="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/activity-graph/activity-graph.svg" alt="Activity Graph" />
+  <br />
   <!--START_SECTION:waka-->
 
 ```txt
