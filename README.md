@@ -14,7 +14,7 @@
 <br />
 
 <div align="center">
-  <img src="terminal.svg?v=2" alt="Terminal Boot Sequence" />
+  <img src="terminal.svg?v=3" alt="Terminal Boot Sequence" />
 </div>
 
 ---
