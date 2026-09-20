@@ -13,14 +13,9 @@
 
 <br />
 
-```text
-[  OK  ] booting akarshjain05...
-[  OK  ] mounting backend services (fastapi, postgresql, redis)
-[  OK  ] initializing AI subroutines (langgraph, gemini)
-[  OK  ] containerizing everything (docker)
-[  OK  ] loading profile: Akarsh Jain
-[ INFO ] status: available for opportunities
-```
+<div align="center">
+  <img src="terminal.svg" alt="Terminal Boot Sequence" />
+</div>
 
 ---
 
