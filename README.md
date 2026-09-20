@@ -169,39 +169,40 @@ survives the happy path.
     <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
   </p>
 
-  <p><b>Backend & APIs</b></p>
+  <p><b>Backend & Databases</b></p>
   <p>
     <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-    <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=route53&logoColor=white" />
-    <img src="https://img.shields.io/badge/JWT_/_OAuth2-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
-    <img src="https://img.shields.io/badge/LangGraph-02569B?style=for-the-badge&logo=langchain&logoColor=white" />
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+    <img src="https://img.shields.io/badge/Redis-CC0000?style=for-the-badge&logo=redis&logoColor=white" />
+    <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
     <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
+    <img src="https://img.shields.io/badge/JWT_/_OAuth2-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
   </p>
 
-  <p><b>Testing & Tools</b></p>
+  <p><b>Frontend & Web</b></p>
   <p>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+    <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" />
+  </p>
+
+  <p><b>AI & Quantum</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/LangGraph-02569B?style=for-the-badge&logo=langchain&logoColor=white" />
+    <img src="https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=E52771" />
+    <img src="https://img.shields.io/badge/LLMs_(Claude_/_Gemini)-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white" />
+    <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
+  </p>
+
+  <p><b>Infra & Tools</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
     <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
     <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  </p>
-
-  <p><b>Deployment & Infra</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-    <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
-    <img src="https://img.shields.io/badge/Caddy-00ADD8?style=for-the-badge&logo=caddy&logoColor=white" />
-    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-  </p>
-
-  <p><b>Core CS</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/DSA-FF4B4B?style=for-the-badge&logo=leetcode&logoColor=white" />
-    <img src="https://img.shields.io/badge/OOP-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-    <img src="https://img.shields.io/badge/DBMS-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-    <img src="https://img.shields.io/badge/Operating_Systems-000000?style=for-the-badge&logo=linux&logoColor=white" />
-    <img src="https://img.shields.io/badge/Computer_Networks-005571?style=for-the-badge&logo=cisco&logoColor=white" />
   </p>
 </div>
 
