@@ -19,27 +19,52 @@
 
 ---
 
-### `akarsh@dev:~$ whoami`
+### `akarsh@dev:~$ curl -s https://api.akarsh.dev/v1/profile | jq`
 
-```text
-Akarsh Jain
-Computer Science Undergrad @ SVNIT (2024 - 2028)
-Full-Stack Developer · AI/ML Engineer · Competitive Programmer
-
-I build robust backend and AI systems that actually hold up under pressure. 
-I care about the things demos usually skip past — correctness, edge cases, 
-and performance. I'd much rather spend an extra evening hardening a codebase 
-with Pytest and Redis rate-limiting than ship a fragile demo that only 
-survives the happy path.
+```json
+{
+  "name": "Akarsh Jain",
+  "education": "Computer Science Undergrad @ SVNIT (2024 - 2028)",
+  "roles": [
+    "Full-Stack Developer",
+    "AI/ML Engineer",
+    "Competitive Programmer"
+  ],
+  "bio": [
+    "I build robust backend and AI systems that actually hold up under pressure.",
+    "I care about the things demos usually skip past — correctness, edge cases, and performance.",
+    "I'd much rather spend an extra evening hardening a codebase with Pytest and Redis",
+    "rate-limiting than ship a fragile demo that only survives the happy path."
+  ]
+}
 ```
 
 ---
 
-### `akarsh@dev:~$ cat /current_focus`
+### `akarsh@dev:~$ curl -s https://api.akarsh.dev/v1/active-tasks | jq`
 
-- **Building an Autonomous AI Software Factory** — an agentic LangGraph platform that plans, implements, and tests code autonomously
-- **Grinding DSA & Codeforces** — to master competitive problem-solving
-- **Exploring advanced RAG architectures & vector databases** — for the next big AI integration
+```json
+[
+  {
+    "id": "TASK-01",
+    "title": "Autonomous AI Software Factory",
+    "description": "Building an agentic LangGraph platform that plans, implements, and tests code autonomously",
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": "TASK-02",
+    "title": "DSA & Codeforces",
+    "description": "Mastering advanced data structures and competitive problem-solving",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "TASK-03",
+    "title": "Advanced RAG Architecture",
+    "description": "Exploring vector databases and temporal hybrid search for next-gen AI integrations",
+    "status": "RESEARCHING"
+  }
+]
+```
 
 ---
 
