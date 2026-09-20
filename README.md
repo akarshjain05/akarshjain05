@@ -41,18 +41,20 @@
 
 ---
 
-### `akarsh@dev:~$ psql -U akarsh -d brain_db`
+### `akarsh@dev:~$ jobs -l`
 
-```sql
-brain_db=> SELECT task, description, status FROM current_focus WHERE status != 'COMPLETED';
+<img src="https://img.shields.io/badge/%5B1%5D_IN_PROGRESS-009688?style=for-the-badge" /> &nbsp; **Autonomous AI Software Factory**
+> Building an agentic LangGraph platform that plans, implements, and tests code autonomously.
 
-               task              |                     description                      |   status    
----------------------------------+------------------------------------------------------+-------------
- Autonomous AI Software Factory  | Agentic LangGraph platform that plans and tests code | IN_PROGRESS 
- DSA & Codeforces                | Mastering advanced data structures & algorithms      | ACTIVE      
- Advanced RAG Architecture       | Exploring vector databases & temporal hybrid search  | RESEARCHING 
-(3 rows)
-```
+<br/>
+
+<img src="https://img.shields.io/badge/%5B2%5D_ACTIVE-58a6ff?style=for-the-badge" /> &nbsp; **DSA & Codeforces**
+> Mastering advanced data structures and competitive problem-solving.
+
+<br/>
+
+<img src="https://img.shields.io/badge/%5B3%5D_RESEARCHING-ff7b72?style=for-the-badge" /> &nbsp; **Advanced RAG Architecture**
+> Exploring vector databases and temporal hybrid search for next-gen AI integrations.
 
 ---
 
