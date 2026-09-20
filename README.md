@@ -42,9 +42,9 @@ survives the happy path.
 
 ### `akarsh@dev:~$ cat /current_focus`
 
-- 🏭 **Building an Autonomous AI Software Factory** — an agentic LangGraph platform that plans, implements, and tests code autonomously
-- 🧠 **Grinding DSA & Codeforces** — to master competitive problem-solving
-- 🚀 **Exploring advanced RAG architectures & vector databases** — for the next big AI integration
+- **Building an Autonomous AI Software Factory** — an agentic LangGraph platform that plans, implements, and tests code autonomously
+- **Grinding DSA & Codeforces** — to master competitive problem-solving
+- **Exploring advanced RAG architectures & vector databases** — for the next big AI integration
 
 ---
 
