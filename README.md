@@ -231,8 +231,8 @@ akarsh@dev:~$ exit
 ```
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/profile-3d-contrib/akarsh-premium-city.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/profile-3d-contrib/profile-gitblock.svg">
-    <img alt="3D Github Contribution City" src="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/profile-3d-contrib/profile-night-view.svg">
+    <img alt="3D Github Contribution City" src="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/profile-3d-contrib/akarsh-premium-city.svg">
   </picture>
 </div>
