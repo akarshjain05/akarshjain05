@@ -150,17 +150,9 @@ survives the happy path.
 
 ---
 
-### `akarsh@dev:~$ neofetch --competitive`
-
-```text
-       *       Platform: LeetCode
-      ***      Solved:   650+ Problems
-     *****     Language: C++ / Python
-    *******
-   *********   Platform: Codeforces
-  ***********  Rating:   1600+ (Max)
- ************* Handle:   akarsh_jain05
-```
+<div align="center">
+  <img src="neofetch.svg" alt="Competitive Neofetch" />
+</div>
 
 ---
 
