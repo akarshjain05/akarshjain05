@@ -14,6 +14,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
+      
       - name: Create settings.json
         run: |
           cat << 'INNER_EOF' > settings.json
@@ -35,16 +36,44 @@ jobs:
             ]
           }
           INNER_EOF
+          
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: "settings.json"
+          
+      - name: Make SVG Premium (Remove Extra Charts & Crop)
+        run: |
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          import glob
+          for file in glob.glob('profile-3d-contrib/*.svg'):
+              tree = ET.parse(file)
+              root = tree.getroot()
+              ns = {'svg': 'http://www.w3.org/2000/svg'}
+              ET.register_namespace('', ns['svg'])
+              
+              to_remove = []
+              for g in root.findall('./svg:g', ns):
+                  text_content = ''.join(g.itertext())
+                  if 'Commit' in text_content or 'JavaScript' in text_content or 'Python' in text_content or 'contributions' in text_content:
+                      to_remove.append(g)
+                      
+              for g in to_remove:
+                  root.remove(g)
+                  
+              root.set('width', '800')
+              root.set('viewBox', '0 0 800 850')
+              
+              tree.write(file, default_namespace='')
+          "
+          
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "design: generate custom themed 3D city"; then
+          if git commit -m "design: generate custom minimalist 3D city"; then
             git push
           fi
