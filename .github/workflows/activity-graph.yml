@@ -18,15 +18,39 @@ jobs:
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
-          options: bg_color=0c1117&color=39FF14&line=39FF14&point=FFFFFF&area=true&hide_border=true
+          options: bg_color=0c1117&color=39FF14&line=39FF14&area=true&hide_border=true
           output_path: activity-graph/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Make Graph Premium (Remove Points & Add Neon Glow)
+        run: |
+          python3 -c "
+          import re
+          
+          with open('activity-graph/activity-graph.svg', 'r') as f:
+              svg = f.read()
+              
+          # 1. Remove the points (white dots) that interrupt the smooth line
+          svg = re.sub(r'<line[^>]*class=\"ct-point\"[^>]*></line>', '', svg)
+          
+          # 2. Inject custom CSS for a premium neon glow on the line
+          glow_css = '''
+          .ct-line {
+              stroke-width: 4px !important;
+              filter: drop-shadow(0px 0px 4px #39FF14) !important;
+          }
+          '''
+          svg = svg.replace('</style>', glow_css + '\n</style>')
+          
+          with open('activity-graph/activity-graph.svg', 'w') as f:
+              f.write(svg)
+          "
+          
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "generated activity graph"; then
+          if git commit -m "design: generate ultra-premium smooth neon activity graph"; then
             git push
           fi
