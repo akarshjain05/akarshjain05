@@ -226,6 +226,9 @@ survives the happy path.
   <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=00000000" alt="Top Languages" />
   <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=00000000" alt="Streak Stats" />
+  <br />
+  <!--START_SECTION:waka-->
+  <!--END_SECTION:waka-->
 </div>
 
 ---
