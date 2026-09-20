@@ -216,18 +216,7 @@ graph TD
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=0c1117" alt="Streak Stats" />
   <br />
   <img src="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/activity-graph/activity-graph.svg" alt="Activity Graph" />
-  <br />
-  <!--START_SECTION:waka-->
 
-```txt
-From: 12 September 2026 - To: 19 September 2026
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
 </div>
 
 ---
