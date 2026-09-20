@@ -222,10 +222,10 @@ survives the happy path.
 
 <div align="center">
   <h3><code>akarsh@dev:~$ tail -f activity.log</code></h3>
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=00000000" alt="GitHub Stats" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=00000000" alt="Top Languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=0d1117" alt="GitHub Stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117" alt="Top Languages" />
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=transparent" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=0d1117" alt="Streak Stats" />
   <br />
   <!--START_SECTION:waka-->
 
