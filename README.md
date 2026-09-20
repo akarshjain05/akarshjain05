@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="banner.svg?v=1" alt="Root Access Banner" />
+</div>
+
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=39FF14&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Akarsh+Jain;Backend+%2B+Full-Stack+Engineer;AI%2FML+%26+Competitive+Programmer;Building+systems+that+survive+real+load" alt="Typing SVG" />
   <br />
   <br />

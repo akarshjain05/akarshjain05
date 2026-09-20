@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glitch">
+      <feOffset dx="2" dy="-2" in="SourceGraphic" result="red-shift"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" in="red-shift" result="red"/>
+      <feOffset dx="-2" dy="2" in="SourceGraphic" result="blue-shift"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" in="blue-shift" result="blue"/>
+      <feBlend mode="screen" in="red" in2="blue" result="glitch"/>
+      <feBlend mode="screen" in="glitch" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="250" fill="transparent"/>
+  
+  <circle cx="400" cy="110" r="100" fill="url(#glow)">
+    <animate attributeName="r" values="80; 100; 80" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4; 0.8; 0.4" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <g id="avatar">
+<rect class="pixel p1_6" x="382" y="47" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p1_7" x="394" y="47" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p1_8" x="406" y="47" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p2_6" x="382" y="59" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p2_7" x="394" y="59" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p2_8" x="406" y="59" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p3_6" x="382" y="71" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p3_7" x="394" y="71" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p3_8" x="406" y="71" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_1" x="322" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_2" x="334" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_3" x="346" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_6" x="382" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_7" x="394" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_8" x="406" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_11" x="442" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_12" x="454" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p4_13" x="466" y="83" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_1" x="322" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_2" x="334" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_3" x="346" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_6" x="382" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_7" x="394" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_8" x="406" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_11" x="442" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_12" x="454" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p5_13" x="466" y="95" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_1" x="322" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_2" x="334" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_3" x="346" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_4" x="358" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_5" x="370" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_6" x="382" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_7" x="394" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_8" x="406" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_9" x="418" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_10" x="430" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_11" x="442" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_12" x="454" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p6_13" x="466" y="107" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_1" x="322" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_2" x="334" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_3" x="346" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_4" x="358" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_5" x="370" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_6" x="382" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_7" x="394" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_8" x="406" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_9" x="418" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_10" x="430" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_11" x="442" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_12" x="454" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p7_13" x="466" y="119" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_1" x="322" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_2" x="334" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_3" x="346" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_4" x="358" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_5" x="370" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_6" x="382" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_7" x="394" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_8" x="406" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_9" x="418" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_10" x="430" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_11" x="442" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_12" x="454" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p8_13" x="466" y="131" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p9_4" x="358" y="143" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p9_5" x="370" y="143" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p9_6" x="382" y="143" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p9_7" x="394" y="143" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p9_8" x="406" y="143" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p9_9" x="418" y="143" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p9_10" x="430" y="143" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p10_4" x="358" y="155" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p10_5" x="370" y="155" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p10_6" x="382" y="155" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p10_7" x="394" y="155" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p10_8" x="406" y="155" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p10_9" x="418" y="155" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p10_10" x="430" y="155" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_1" x="322" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_2" x="334" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_3" x="346" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_6" x="382" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_7" x="394" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_8" x="406" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_11" x="442" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_12" x="454" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p11_13" x="466" y="167" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_1" x="322" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_2" x="334" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_3" x="346" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_6" x="382" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_7" x="394" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_8" x="406" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_11" x="442" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_12" x="454" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p12_13" x="466" y="179" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_1" x="322" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_2" x="334" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_3" x="346" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_6" x="382" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_7" x="394" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_8" x="406" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_11" x="442" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_12" x="454" y="191" width="12" height="12" fill="#39FF14"/>
+<rect class="pixel p13_13" x="466" y="191" width="12" height="12" fill="#39FF14"/>
+
+  </g>
+
+  <g font-family="monospace" font-size="20" fill="#39FF14" font-weight="bold" text-anchor="middle" letter-spacing="4">
+    <text x="400" y="235" class="glitch-text">ROOT ACCESS GRANTED</text>
+  </g>
+
+  <style>
+    .pixel {
+      opacity: 0;
+      animation: construct 1.5s forwards, float 3s ease-in-out infinite alternate;
+      transform-origin: center;
+    }
+    @keyframes construct {
+      0% { transform: translateY(-50px) scale(0); opacity: 0; }
+      60% { opacity: 1; }
+      100% { transform: translateY(0) scale(1); opacity: 1; }
+    }
+    @keyframes float {
+      0% { filter: drop-shadow(0px 0px 2px #39FF14); }
+      100% { filter: drop-shadow(0px 0px 8px #39FF14); transform: translateY(-3px); }
+    }
+    .glitch-text {
+      animation: glitch-anim 4s infinite;
+      text-shadow: 0 0 5px #39FF14;
+    }
+    @keyframes glitch-anim {
+      0%, 94% { opacity: 1; transform: skewX(0deg); }
+      95% { opacity: 0.8; transform: skewX(-15deg); filter: url(#glitch); }
+      96% { opacity: 1; transform: skewX(15deg); filter: none; }
+      97% { opacity: 0.9; transform: skewX(0deg); filter: url(#glitch); }
+      98% { opacity: 1; transform: skewX(0deg); filter: none; }
+      100% { opacity: 1; }
+    }
+    .pixel:nth-child(1) { animation-delay: 0.0s, 1.5s; }
+    .pixel:nth-child(2) { animation-delay: 0.04s, 1.5s; }
+    .pixel:nth-child(3) { animation-delay: 0.08s, 1.5s; }
+    .pixel:nth-child(4) { animation-delay: 0.12s, 1.5s; }
+    .pixel:nth-child(5) { animation-delay: 0.16s, 1.5s; }
+    .pixel:nth-child(6) { animation-delay: 0.2s, 1.5s; }
+    .pixel:nth-child(7) { animation-delay: 0.24s, 1.5s; }
+    .pixel:nth-child(8) { animation-delay: 0.28s, 1.5s; }
+    .pixel:nth-child(9) { animation-delay: 0.32s, 1.5s; }
+    .pixel:nth-child(10) { animation-delay: 0.36s, 1.5s; }
+    .pixel:nth-child(11) { animation-delay: 0.4s, 1.5s; }
+    .pixel:nth-child(12) { animation-delay: 0.44s, 1.5s; }
+    .pixel:nth-child(13) { animation-delay: 0.48s, 1.5s; }
+    .pixel:nth-child(14) { animation-delay: 0.52s, 1.5s; }
+    .pixel:nth-child(15) { animation-delay: 0.56s, 1.5s; }
+    .pixel:nth-child(16) { animation-delay: 0.6s, 1.5s; }
+    .pixel:nth-child(17) { animation-delay: 0.64s, 1.5s; }
+    .pixel:nth-child(18) { animation-delay: 0.68s, 1.5s; }
+    .pixel:nth-child(19) { animation-delay: 0.72s, 1.5s; }
+    .pixel:nth-child(20) { animation-delay: 0.76s, 1.5s; }
+    .pixel:nth-child(21) { animation-delay: 0.8s, 1.5s; }
+    .pixel:nth-child(22) { animation-delay: 0.84s, 1.5s; }
+    .pixel:nth-child(23) { animation-delay: 0.88s, 1.5s; }
+    .pixel:nth-child(24) { animation-delay: 0.92s, 1.5s; }
+    .pixel:nth-child(25) { animation-delay: 0.96s, 1.5s; }
+    .pixel:nth-child(26) { animation-delay: 0.0s, 1.5s; }
+    .pixel:nth-child(27) { animation-delay: 0.04s, 1.5s; }
+    .pixel:nth-child(28) { animation-delay: 0.08s, 1.5s; }
+    .pixel:nth-child(29) { animation-delay: 0.12s, 1.5s; }
+    .pixel:nth-child(30) { animation-delay: 0.16s, 1.5s; }
+    .pixel:nth-child(31) { animation-delay: 0.2s, 1.5s; }
+    .pixel:nth-child(32) { animation-delay: 0.24s, 1.5s; }
+    .pixel:nth-child(33) { animation-delay: 0.28s, 1.5s; }
+    .pixel:nth-child(34) { animation-delay: 0.32s, 1.5s; }
+    .pixel:nth-child(35) { animation-delay: 0.36s, 1.5s; }
+    .pixel:nth-child(36) { animation-delay: 0.4s, 1.5s; }
+    .pixel:nth-child(37) { animation-delay: 0.44s, 1.5s; }
+    .pixel:nth-child(38) { animation-delay: 0.48s, 1.5s; }
+    .pixel:nth-child(39) { animation-delay: 0.52s, 1.5s; }
+    .pixel:nth-child(40) { animation-delay: 0.56s, 1.5s; }
+    .pixel:nth-child(41) { animation-delay: 0.6s, 1.5s; }
+    .pixel:nth-child(42) { animation-delay: 0.64s, 1.5s; }
+    .pixel:nth-child(43) { animation-delay: 0.68s, 1.5s; }
+    .pixel:nth-child(44) { animation-delay: 0.72s, 1.5s; }
+    .pixel:nth-child(45) { animation-delay: 0.76s, 1.5s; }
+    .pixel:nth-child(46) { animation-delay: 0.8s, 1.5s; }
+    .pixel:nth-child(47) { animation-delay: 0.84s, 1.5s; }
+    .pixel:nth-child(48) { animation-delay: 0.88s, 1.5s; }
+    .pixel:nth-child(49) { animation-delay: 0.92s, 1.5s; }
+    .pixel:nth-child(50) { animation-delay: 0.96s, 1.5s; }
+    .pixel:nth-child(51) { animation-delay: 0.0s, 1.5s; }
+    .pixel:nth-child(52) { animation-delay: 0.04s, 1.5s; }
+    .pixel:nth-child(53) { animation-delay: 0.08s, 1.5s; }
+    .pixel:nth-child(54) { animation-delay: 0.12s, 1.5s; }
+    .pixel:nth-child(55) { animation-delay: 0.16s, 1.5s; }
+    .pixel:nth-child(56) { animation-delay: 0.2s, 1.5s; }
+    .pixel:nth-child(57) { animation-delay: 0.24s, 1.5s; }
+    .pixel:nth-child(58) { animation-delay: 0.28s, 1.5s; }
+    .pixel:nth-child(59) { animation-delay: 0.32s, 1.5s; }
+    .pixel:nth-child(60) { animation-delay: 0.36s, 1.5s; }
+    .pixel:nth-child(61) { animation-delay: 0.4s, 1.5s; }
+    .pixel:nth-child(62) { animation-delay: 0.44s, 1.5s; }
+    .pixel:nth-child(63) { animation-delay: 0.48s, 1.5s; }
+    .pixel:nth-child(64) { animation-delay: 0.52s, 1.5s; }
+    .pixel:nth-child(65) { animation-delay: 0.56s, 1.5s; }
+    .pixel:nth-child(66) { animation-delay: 0.6s, 1.5s; }
+    .pixel:nth-child(67) { animation-delay: 0.64s, 1.5s; }
+    .pixel:nth-child(68) { animation-delay: 0.68s, 1.5s; }
+    .pixel:nth-child(69) { animation-delay: 0.72s, 1.5s; }
+    .pixel:nth-child(70) { animation-delay: 0.76s, 1.5s; }
+    .pixel:nth-child(71) { animation-delay: 0.8s, 1.5s; }
+    .pixel:nth-child(72) { animation-delay: 0.84s, 1.5s; }
+    .pixel:nth-child(73) { animation-delay: 0.88s, 1.5s; }
+    .pixel:nth-child(74) { animation-delay: 0.92s, 1.5s; }
+    .pixel:nth-child(75) { animation-delay: 0.96s, 1.5s; }
+    .pixel:nth-child(76) { animation-delay: 0.0s, 1.5s; }
+    .pixel:nth-child(77) { animation-delay: 0.04s, 1.5s; }
+    .pixel:nth-child(78) { animation-delay: 0.08s, 1.5s; }
+    .pixel:nth-child(79) { animation-delay: 0.12s, 1.5s; }
+    .pixel:nth-child(80) { animation-delay: 0.16s, 1.5s; }
+    .pixel:nth-child(81) { animation-delay: 0.2s, 1.5s; }
+    .pixel:nth-child(82) { animation-delay: 0.24s, 1.5s; }
+    .pixel:nth-child(83) { animation-delay: 0.28s, 1.5s; }
+    .pixel:nth-child(84) { animation-delay: 0.32s, 1.5s; }
+    .pixel:nth-child(85) { animation-delay: 0.36s, 1.5s; }
+    .pixel:nth-child(86) { animation-delay: 0.4s, 1.5s; }
+    .pixel:nth-child(87) { animation-delay: 0.44s, 1.5s; }
+    .pixel:nth-child(88) { animation-delay: 0.48s, 1.5s; }
+    .pixel:nth-child(89) { animation-delay: 0.52s, 1.5s; }
+    .pixel:nth-child(90) { animation-delay: 0.56s, 1.5s; }
+    .pixel:nth-child(91) { animation-delay: 0.6s, 1.5s; }
+    .pixel:nth-child(92) { animation-delay: 0.64s, 1.5s; }
+    .pixel:nth-child(93) { animation-delay: 0.68s, 1.5s; }
+    .pixel:nth-child(94) { animation-delay: 0.72s, 1.5s; }
+    .pixel:nth-child(95) { animation-delay: 0.76s, 1.5s; }
+    .pixel:nth-child(96) { animation-delay: 0.8s, 1.5s; }
+    .pixel:nth-child(97) { animation-delay: 0.84s, 1.5s; }
+    .pixel:nth-child(98) { animation-delay: 0.88s, 1.5s; }
+    .pixel:nth-child(99) { animation-delay: 0.92s, 1.5s; }
+    .pixel:nth-child(100) { animation-delay: 0.96s, 1.5s; }
+    .pixel:nth-child(101) { animation-delay: 0.0s, 1.5s; }
+    .pixel:nth-child(102) { animation-delay: 0.04s, 1.5s; }
+    .pixel:nth-child(103) { animation-delay: 0.08s, 1.5s; }
+    .pixel:nth-child(104) { animation-delay: 0.12s, 1.5s; }
+    .pixel:nth-child(105) { animation-delay: 0.16s, 1.5s; }
+    .pixel:nth-child(106) { animation-delay: 0.2s, 1.5s; }
+    .pixel:nth-child(107) { animation-delay: 0.24s, 1.5s; }
+  </style>
+</svg>
