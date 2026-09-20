@@ -43,17 +43,19 @@
 
 ### `akarsh@dev:~$ jobs -l`
 
-<img src="https://img.shields.io/badge/%5B1%5D_IN_PROGRESS-009688?style=for-the-badge" /> &nbsp; **Autonomous AI Software Factory**
+<br/>
+
+<img src="https://img.shields.io/badge/Autonomous_AI_Software_Factory-IN_PROGRESS-009688?style=for-the-badge" />
 > Building an agentic LangGraph platform that plans, implements, and tests code autonomously.
 
 <br/>
 
-<img src="https://img.shields.io/badge/%5B2%5D_ACTIVE-58a6ff?style=for-the-badge" /> &nbsp; **DSA & Codeforces**
+<img src="https://img.shields.io/badge/DSA_%26_Codeforces-ACTIVE-58a6ff?style=for-the-badge" />
 > Mastering advanced data structures and competitive problem-solving.
 
 <br/>
 
-<img src="https://img.shields.io/badge/%5B3%5D_RESEARCHING-ff7b72?style=for-the-badge" /> &nbsp; **Advanced RAG Architecture**
+<img src="https://img.shields.io/badge/Advanced_RAG_Architecture-RESEARCHING-ff7b72?style=for-the-badge" />
 > Exploring vector databases and temporal hybrid search for next-gen AI integrations.
 
 ---
