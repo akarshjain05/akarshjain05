@@ -217,7 +217,7 @@ graph TD
   <img height="165" src="https://github-stats-extended.vercel.app/api?username=akarshjain05&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=0c1117" alt="GitHub Stats" />
   <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=akarshjain05&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0c1117" alt="Top Languages" />
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=0c1117" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=akarshjain05&theme=github-dark-blue&hide_border=true&background=0c1117" alt="Streak Stats" />
   <br />
   <img src="https://raw.githubusercontent.com/akarshjain05/akarshjain05/main/activity-graph/activity-graph.svg" alt="Activity Graph" />
 
