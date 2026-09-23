@@ -57,7 +57,7 @@ jobs:
               to_remove = []
               for g in root.findall('./svg:g', ns):
                   text_content = ''.join(g.itertext())
-                  if 'Commit' in text_content or 'JavaScript' in text_content or 'Python' in text_content or 'contributions' in text_content:
+                  if 'Commit' in text_content or 'JavaScript' in text_content or 'Python' in text_content or 'Languages' in text_content:
                       to_remove.append(g)
                       
               for g in to_remove:
