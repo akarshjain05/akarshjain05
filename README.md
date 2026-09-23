@@ -69,34 +69,7 @@
 
 ---
 
-### `akarsh@dev:~$ cat /architecture/ai-pipeline.mmd`
 
-```mermaid
-graph TD
-    Client([Client Request]) --> API[FastAPI Gateway]
-    
-    API -->|Rate Limit / Cache| Redis[(Redis Cache)]
-    API -->|Route| Graph[LangGraph Agent Orchestrator]
-    
-    subgraph Agentic Cluster
-        Graph --> RAG[RAG Agent]
-        Graph --> Code[Code Sandbox Agent]
-        Graph --> Review[Critic Agent]
-    end
-    
-    RAG <--> VectorDB[(Qdrant Vector DB)]
-    Code <--> DB[(PostgreSQL)]
-    
-    %% Custom Dark Mode Styling matching your GitHub Theme
-    classDef node fill:#161b22,stroke:#58a6ff,stroke-width:1px,color:#c9d1d9;
-    classDef db fill:#161b22,stroke:#009688,stroke-width:1px,color:#c9d1d9;
-    classDef cluster fill:#010409,stroke:#30363d,stroke-width:1px,color:#c9d1d9;
-    
-    class Client,API,Graph,RAG,Code,Review node;
-    class Redis,VectorDB,DB db;
-```
-
----
 
 <div align="center">
   <h3><code>akarsh@dev:~$ ls -la /opt/projects/</code></h3>
